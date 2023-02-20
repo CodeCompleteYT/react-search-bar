@@ -1,7 +1,7 @@
 import "./SearchResultsList.css";
 import { SearchResult } from "./SearchResult";
 
-export const ResultsList = ({ results }) => {
+export const SearchResultsList = ({ results }) => {
   return (
     <div className="results-list">
       {results.map((result, id) => {
