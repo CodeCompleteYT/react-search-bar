@@ -6,16 +6,25 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --port 8080"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.1",
     "axios": "^1.6.2",
     "flowbite": "^2.2.0",
     "flowbite-react": "^0.7.0",
+    "framer-motion": "^10.16.16",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.6.2",
     "react-icons": "^4.7.1",
-    "react-router-dom": "^6.20.0"
+    "react-marquee-slider": "^1.1.5",
+    "react-multi-carousel": "^2.8.4",
+    "react-router-dom": "^6.20.0",
+    "styled-components": "^6.1.6"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
